@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/api/users")
 public class UserController {
     private final UserService service;
-// ye maine chot sa change kiy ahai check krne ke liye
+// ye maine chot sa change kiy ahai check krne ke liye vesion2
     public UserController(UserService service) {
         this.service = service;
     }
