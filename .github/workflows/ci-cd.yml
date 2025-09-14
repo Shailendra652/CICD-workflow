@@ -33,7 +33,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t your-dockerhub-username/springboot-crud-app:latest .
+        run: docker build -t shailendrasaroj/springboot-cicd-crud-app:latest .
 
       - name: Push Docker image
-        run: docker push your-dockerhub-username/springboot-crud-app:latest
+        run: docker push shailendrasaroj/springboot-cicd-crud-app:latest
